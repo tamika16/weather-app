@@ -9,24 +9,28 @@
 <body>
     <div class="weather-app">
     <header>
-        <form>
-            <input type="search" placeholder="Enter a city"/>
-            <input type="submit" value="Search"/>
+        <form class="search-form">
+            <input type="search" placeholder="Enter a city" class="search-form-input"/>
+            <input type="submit" value="Search" class="search-form-button"/>
         </form>
     </header>
-    <main>
-    <h1>Pittsburgh</h1>
+    <main class="weather-app-data">
     <div>
-        <p>
+    <h1 class="weather-app-city">Pittsburgh</h1>
+        <p class="weather-app-details">
             Sunday 12:45, clear
             <br />
-            Humidity: 40%, Wind: 2mph
+            Humidity: <strong>40%</strong>, Wind: <strong>2mph</strong>
         </p>
     </div>
-    <div>🌕 34°F</div>
+    <div class="weather-app-temperature">
+        <div class="weather-app-icon">🌕</div>
+        <div class="weather-app-value"> 34</div>
+        <div class="weather-app-unit"> °F</div>
+    </div>
     </main>
 
-    <footer>Built by 
+    <footer>This project was coded by  
         <a href="https://github.com/tamika16" target="_blank">Tamika Englehart</a>, is open-sourced on 
         <a href="https://github.com/tamika16/weather-app" target="_blank">GitHub</a>, and hosted on 
         <a href="https://tamre-weather.netlify.app/" target="_blank">Netlify</a>.
