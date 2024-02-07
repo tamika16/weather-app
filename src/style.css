@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(227, 219, 219);
+    background-color: #212121;
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/182/original/rod-long-WC7LeX79iEU-unsplash.jpg?1707290803");
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     font-family: 'Oxygen', sans-serif;
 }
 
