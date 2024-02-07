@@ -19,7 +19,7 @@ a {
 
 .main-header {
     font-family: 'Dancing Script', cursive;
-    font-size: 70px;
+    font-size: xxx-large;
     margin: 0px 25px 25px;
 }
 
@@ -69,7 +69,7 @@ main {
 
 .weather-app-city {
     margin: 0;
-    font-size: 38px;
+    font-size: xx-large;
     line-height: 48px;
 }
 
