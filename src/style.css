@@ -111,6 +111,32 @@ main {
     color: #212121;
 }
 
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.forecast-day {
+    font-size: larger;
+    text-align: center;
+}
+
+.forecast-icon {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.forecast-temperature {
+    font-size: larger;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.forecast-temperature-max {
+    font-weight: bolder;
+}
+
 footer {
     border-top: 1px solid rgb(227, 219, 219);
     padding: 30px 0 0 0;   
