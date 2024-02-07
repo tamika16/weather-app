@@ -72,13 +72,14 @@ main {
 }
 
 .weather-app-icon {
-    font-size: 44px;
-    margin-top: 15px;
+    width: 70px;
+    margin-top: 5px;
     margin-left: 10px;
 }
 
 .weather-app-unit {
     margin-top: 20px;
+    margin-left: 5px;
     font-size: 24px;
 }
 
