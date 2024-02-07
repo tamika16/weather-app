@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <title>Coffee Shop Weather</title>
 </head>
 <body>
+    <div class="title">
+    <h1 class="main-header">Coffee Shop Weather</h1>
+    <h3 class="header-description">Will it be coffee with fresh air on the patio or inside on a cozy chair today?</h3>
+    </div>
     <div class="weather-app">
     <header>
         <form class="search-form" id="search-form">
@@ -31,7 +39,7 @@
         <p class="weather-app-details">
             <span id="time"></span>, <span id="description"></span>
             <br />
-            Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed">2mph</strong>
+            Humidity: <strong id="humidity"></strong> Wind: <strong id="wind-speed">2mph</strong>
         </p>
     </div>
     <div class="weather-app-temperature">

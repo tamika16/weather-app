@@ -1,5 +1,9 @@
 body {
     background-color: rgb(227, 219, 219);
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/182/original/rod-long-WC7LeX79iEU-unsplash.jpg?1707290803");
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: 'Oxygen', sans-serif;
 }
 
 a {
@@ -7,22 +11,39 @@ a {
     font-weight: bold;
 }
 
+.main-header,
+.header-description {
+    text-align: center;
+    color: #212121;
+}
+
+.main-header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    margin: 0px 25px 25px;
+}
+
+.header-description {
+    font-size: 15px;
+}
+
+.title,
 .weather-app {
-    background: white;
+    background: rgb(144, 165, 149, .87);
     max-width: 600px;
     margin: 30px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.05);
     border-radius: 10px;
-    padding: 30px;
+    padding: 25px;
 }
 
 header {
-    border-bottom: 1px solid rgb(227, 219, 219);
+    border-bottom: 1px none rgb(227, 219, 219);
     padding: 0 0 30px 0;
 }
 
 .search-form-input {
-    background-color: rgb(227, 219, 219);
+    background-color: rgb(227, 219, 219, 0.719);
     border: none;
     border-radius: 6px;
     width: 80%;
@@ -30,7 +51,7 @@ header {
 }
 
 .search-form-button {
-    background: rgb(227, 219, 219);
+    background: rgba(227, 219, 219, 0.719);
     padding: 10px 20px;
     border: none;
     border-radius: 6px;
@@ -38,7 +59,7 @@ header {
 }
 
 main {
-    padding: 30px 0;
+    padding: 0 0 25px;
 }
 
 .weather-app-data {
@@ -48,18 +69,18 @@ main {
 
 .weather-app-city {
     margin: 0;
-    font-size: 34px;
+    font-size: 38px;
     line-height: 48px;
 }
 
 .weather-app-details {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
-    color: rgb(204, 197, 197);
+    color: #212121e1;
 }
 
 .weather-app-details strong {
-    color: rgb(132, 102, 102);
+    color: #a0532c;
 }
 
 .weather-app-temperature {
@@ -72,15 +93,21 @@ main {
 }
 
 .weather-app-icon {
-    width: 70px;
+    width: 90px;
+    margin-left: 5px;
     margin-top: 5px;
-    margin-left: 10px;
+
 }
 
 .weather-app-unit {
     margin-top: 20px;
-    margin-left: 5px;
     font-size: 24px;
+}
+
+.weather-app-city,
+.weather-app-value,
+.weather-app-unit {
+    color: #212121;
 }
 
 footer {
@@ -88,5 +115,5 @@ footer {
     padding: 30px 0 0 0;   
     text-align: center; 
     font-size: 14px;
-    color: rgba(71, 71, 71, 0.8);
+    color: #212121e1;
 }
