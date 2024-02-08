@@ -123,8 +123,10 @@ main {
 }
 
 .forecast-icon {
-    margin-top: 10px;
-    text-align: center;
+    width: 88px;
+    height: 88px;
+    display: block;
+    margin: 0 auto;
 }
 
 .forecast-temperature {
