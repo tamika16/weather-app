@@ -19,7 +19,7 @@ a {
 
 .main-header {
     font-family: 'Dancing Script', cursive;
-    font-size: xxx-large;
+    font-size: 70px;
     margin: 0px 25px;
 }
 
@@ -32,7 +32,7 @@ a {
     background: rgb(144, 165, 149, .87);
     max-width: 600px;
     margin: 30px auto;
-    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.05);
+    box-shadow: 0 10px 20px rgba(58, 67, 60, 0.96);
     border-radius: 10px;
     padding: 25px;
 }
@@ -46,6 +46,7 @@ header {
     background-color: rgb(227, 219, 219, 0.719);
     border: none;
     border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(75, 72, 72, 0.60);
     width: 80%;
     padding: 10px 20px;
 }
@@ -55,6 +56,7 @@ header {
     padding: 10px 20px;
     border: none;
     border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(75, 72, 72, 0.60);
     color: black;
 }
 
@@ -69,7 +71,7 @@ main {
 
 .weather-app-city {
     margin: 0;
-    font-size: xx-large;
+    font-size: xxx-large;
     line-height: 48px;
 }
 
@@ -130,18 +132,28 @@ main {
 }
 
 .forecast-temperature {
+    display: flex;
     font-size: larger;
     margin-top: 10px;
     text-align: center;
 }
 
 .forecast-temperature-max {
-    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.forecast-temperature-min {
+    margin-left: 15px;
+}
+
+.forecast-unit {
+    font-size: small;
+    margin-bottom: 5px;
 }
 
 footer {
     border-top: 1px solid rgb(227, 219, 219);
-    padding: 30px 0 0 0;   
+    padding: 15px 0 0 0;   
     text-align: center; 
     font-size: smaller;
     color: #212121e1;
